@@ -53,10 +53,6 @@
     justify-content: center;
     align-items: center ;
     gap: 5%;
-
-
-
-
 }
 .addplayer span{
     color: aqua;
@@ -80,4 +76,35 @@
     flex-direction: column;
     align-items: center;
     height: 700px;
+}
+
+#addplayerForm{
+    width: 280px;
+    height: 220px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid aqua;
+    justify-content: center;
+    gap: 12%;
+}
+#addplayerForm button{
+    width: 70%;
+    height: 30px;
+    border: 2px solid #fa02fe;
+    border-radius: 30px;
+    color: #fa02fe;
+}
+#addplayerForm  input{
+    width: 90%;
+    height: 30px;
+    border:  2px solid aqua;
+    border-radius: 30px;
+    color: aqua;
+    padding-left: 30px;
+    margin-bottom: 10px;
+
+}
+.playersList {
+    color: aqua;
 }
